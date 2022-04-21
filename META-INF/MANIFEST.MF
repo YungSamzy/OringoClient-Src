@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+MixinConfigs: mixins.oringo.json
+Protected-Notice: AV contact email - primary@licelus.com
+FMLCorePluginContainsFMLMod: true
+JAR-Signature: XBwo8ydeTzV4wcjzB3YzdZRnQH8kuhT24iVzpoOxtSCNfK5i
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: me.oringodevmode.Transformer
+Protected-By: 9.1.15 Stringer (20190521)
+

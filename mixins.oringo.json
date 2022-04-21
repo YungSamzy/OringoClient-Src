@@ -1,0 +1,36 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.oringo.oringoclient.mixins",
+  "refmap": "mixins.oringoclient.refmap.json",
+  "mixins": [
+    "AnvilMixin",
+    "BlockCropsMixin",
+    "BlockMixin",
+    "GuiIngameMixin",
+    "MixinChunk",
+    "ModlessMixin",
+    "Packets",
+    "PlayHandlerMixin",
+    "SBESharingMixin",
+    "entity.EntityLivingBaseMixin",
+    "entity.EntityMixin",
+    "entity.PlayerMixin",
+    "entity.PlayerSPMixin",
+    "packet.C03Accessor",
+    "renderer.MixinRenderLivingEntity",
+    "renderer.RenderManagerMixin"
+  ],
+  "client": [
+    "MinecraftAccessor",
+    "MinecraftMixin",
+    "MixinModelBiped",
+    "NickHider",
+    "PlayerControllerMixin",
+    "entity.AbstractClientPlayerMixin",
+    "entity.PlayerSPAccessor",
+    "renderer.AnimationsMixin",
+    "renderer.EntityRendererMixin",
+    "renderer.MixinRenderPlayer",
+    "renderer.RenderMixin"
+  ]
+}
